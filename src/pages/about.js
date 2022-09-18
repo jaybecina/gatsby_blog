@@ -1,12 +1,13 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
 
-const IndexPage = () => (
+const AboutPage = () => (
   <Layout>
-    <Seo title="Home" />
+    <Seo title="About Us" />
     <div className={styles.textCenter}>
       <StaticImage
         src="../images/example.png"
@@ -31,4 +32,4 @@ const IndexPage = () => (
  */
 export const Head = () => <Seo title="Home" />
 
-export default IndexPage
+export default AboutPage
